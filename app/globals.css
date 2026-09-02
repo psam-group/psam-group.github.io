@@ -87,7 +87,7 @@ nav a {
   display: flex;
   gap: 6px;
 }
-.lang button {
+.lang a {
   border: 0;
   background: none;
   color: inherit;
@@ -96,7 +96,7 @@ nav a {
   cursor: pointer;
   font-size: 0.77rem;
 }
-.lang button.active {
+.lang a.active {
   opacity: 1;
   border-bottom: 1px solid currentColor;
 }

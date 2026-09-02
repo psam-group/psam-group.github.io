@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://psam-group.github.io/sitemap.xml

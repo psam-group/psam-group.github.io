@@ -11,7 +11,14 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: "dist-pages",
+    outDir: "dist",
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: fileURLToPath(new URL("index.html", import.meta.url)),
+        en: fileURLToPath(new URL("en/index.html", import.meta.url)),
+        bg: fileURLToPath(new URL("bg/index.html", import.meta.url)),
+      },
+    },
   },
 });

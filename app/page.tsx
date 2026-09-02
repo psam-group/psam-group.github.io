@@ -168,11 +168,11 @@ const people = [
 ];
 function Mark(){return <div className="mark"><svg viewBox="0 0 48 48"><path d="M8 38C9 20 17 9 36 7c0 19-9 30-28 31Z"/><path d="M10 35c8-8 15-14 25-23M24 23l6 2M19 28l-1-7"/></svg><span><b>PSAM</b><small>GROUP</small></span></div>}
 
-export default function Home(){
-  const [lang,setLang]=useState<"en"|"bg">("en"); const t=copy[lang];
+export default function Home({ initialLang = "en" }: { initialLang?: "en" | "bg" }){
+  const [lang]=useState<"en"|"bg">(initialLang); const t=copy[lang];
   const links=["#about","#research","#people","#projects","#publications","#contact"];
   return <main>
-    <header><a href="#top"><Mark/></a><nav>{t.nav.map((n,i)=><a key={n} href={links[i]}>{n}</a>)}</nav><div className="lang"><button className={lang==="en"?"active":""} onClick={()=>setLang("en")}>EN</button><span>/</span><button className={lang==="bg"?"active":""} onClick={()=>setLang("bg")}>BG</button></div></header>
+    <header><a href="#top"><Mark/></a><nav>{t.nav.map((n,i)=><a key={n} href={links[i]}>{n}</a>)}</nav><div className="lang"><a className={lang==="en"?"active":""} href="/en/" lang="en" hrefLang="en">EN</a><span>/</span><a className={lang==="bg"?"active":""} href="/bg/" lang="bg" hrefLang="bg">BG</a></div></header>
     <section className="hero" id="top"><div className="hero-copy"><p className="eyebrow">{t.eyebrow}</p><h1>{t.title}</h1><p className="intro">{t.intro}</p><a className="cta" href="#about">{t.cta}<span>↘</span></a></div><div className="science-art"><span className="axis y">FLUORESCENCE INTENSITY</span><span className="axis x">TIME →</span><svg viewBox="0 0 620 520"><defs><linearGradient id="leaf"><stop stopColor="#c3ff55"/><stop offset="1" stopColor="#26a95b"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="8"/></filter></defs><path className="glow" d="M35 435C100 432 104 420 121 377S149 247 168 293 194 390 215 323 255 112 288 169 308 326 344 246 386 68 428 87 443 207 480 141 526 57 589 46"/><path className="curve" d="M35 435C100 432 104 420 121 377S149 247 168 293 194 390 215 323 255 112 288 169 308 326 344 246 386 68 428 87 443 207 480 141 526 57 589 46"/><path className="leaf" d="M319 427C351 295 435 232 578 219c-3 127-83 206-259 208Z"/><path className="vein" d="M331 415c58-60 119-113 229-176M424 323l72 10M386 359l-7-66"/></svg><div className="signal"><b>O–J–I–P</b><span>fast fluorescence transient</span></div></div><p className="affiliation">{t.aff}<br/>{t.city}</p></section>
     <section className="about" id="about"><p className="eyebrow">{t.aboutLabel}</p><div><h2>{t.aboutTitle}</h2><p>{t.aboutText}</p></div></section>
     <section className="research" id="research"><div className="section-head"><p className="eyebrow">{t.rl}</p><h2>{t.rt}</h2><p>{t.ri}</p></div><div className="areas">{t.areas.map((a,index)=>{
