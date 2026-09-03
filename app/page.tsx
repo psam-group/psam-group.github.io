@@ -156,8 +156,9 @@ const people = [
     name: "Violeta Peeva",
     degree: "Assistant Professor, PhD",
     degreeBg: "Главен асистент, д-р",
-    interests: "Photosynthesis, photosynthetic electron transport, thermoluminescence, oxygen evolution, abiotic stress, its effects on photosynthetic processes, and biochemical and biophysical stress markers.",
-    interestsBg: "Фотосинтеза, фотосинтетичен електронен транспорт, термолуминесценция, отделяне на кислород, абиотичен стрес и влиянието му върху фотосинтетичните процеси, биохимични и биофизични маркери за стрес.",
+    interests: "Plant stress physiology and photosynthetic responses to environmental factors, including drought, temperature, light intensity and spectral quality. Particular interests include photosynthetic electron transport, oxygen evolution, chloroplast metabolism, thermoluminescence and charge-recombination processes in Photosystem II, as well as the use of bioactive compounds such as polyamines and salicylic acid to improve photosynthetic performance and plant tolerance to adverse conditions.",
+    interestsBg: "Физиология на растителния стрес и реакции на фотосинтетичния апарат към фактори на средата, включително засушаване, температура, интензитет и спектрален състав на светлината. Специалните ѝ интереси включват фотосинтетичен електронен транспорт, отделяне на кислород, метаболитното състояние на хлоропластите, термолуминесценция и процеси на рекомбинация на зарядите във Фотосистема II, както и използването на биоактивни съединения като полиамини и салицилова киселина за подобряване на фотосинтетичната активност и устойчивостта на растенията към неблагоприятни условия.",
+    photo: "/team/violeta-peeva.jpg",
   },
   {
     name: "Alexander Angelov",
