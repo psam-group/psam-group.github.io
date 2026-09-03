@@ -140,9 +140,10 @@ const people = [
     name: "Vladimir Aleksandrov",
     degree: "Assistant Professor, PhD",
     degreeBg: "Главен асистент, д-р",
-    interests: "Phenotyping, photosynthesis, chlorophyll fluorescence, abiotic stress, photobiophysics, mathematical models of biological systems, nanobiology and bioinformatics.",
-    interestsBg: "Фенотипиране, фотосинтеза, хлорофилна флуоресценция, абиотичен стрес, фотобиофизика, математически модели на биологични системи, нанобиология и биоинформатика.",
+    interests: "Phenotyping, photosynthesis, chlorophyll fluorescence, abiotic stress, photobiophysics, mathematical models of biological systems, nanobiology, bioinformatics, quantum biology, machine learning and artificial intelligence.",
+    interestsBg: "Фенотипиране, фотосинтеза, хлорофилна флуоресценция, абиотичен стрес, фотобиофизика, математически модели на биологични системи, нанобиология, биоинформатика, квантова биология, машинно обучение и изкуствен интелект.",
     link: "http://www.bio21.bas.bg/ippg/en/?page_id=1871",
+    photo: "/team/vladimir-aleksandrov.jpg",
   },
   {
     name: "Dilyana Doneva",
