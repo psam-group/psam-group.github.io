@@ -149,8 +149,9 @@ const people = [
     name: "Dilyana Doneva",
     degree: "Assistant Professor, PhD",
     degreeBg: "Главен асистент, д-р",
-    interests: "Photosynthetic gas exchange, oxidative stress, antioxidant enzymes, and the effects of light quality on plant growth and development.",
-    interestsBg: "Фотосинтетичен газообмен, оксидативен стрес, антиоксидантни ензими и влияние на качеството на светлината върху растежа и развитието на растенията.",
+    interests: "Plant stress physiology and photosynthetic responses to changing environmental conditions, with a primary focus on photosynthetic gas exchange and drought stress. Particular interests include the role of biologically active compounds in plant adaptation, the responses of crop species—including wheat, leafy vegetables and tomato—to abiotic stress, and the effects of light-spectrum manipulation on plant antioxidant capacity. She actively contributes to national and international research projects.",
+    interestsBg: "Физиология на растителния стрес и фотосинтетични реакции към променящите се условия на средата, с основен акцент върху фотосинтетичния газообмен и стреса от засушаване. Специалните ѝ интереси включват ролята на биологично активните съединения в адаптацията на растенията, реакциите на културни видове — включително пшеница, листни зеленчуци и домати — към абиотичен стрес и влиянието на манипулирането на светлинния спектър върху антиоксидантния капацитет на растенията. Активно участва в национални и международни научни проекти.",
+    photo: "/team/dilyana-doneva.jpg",
   },
   {
     name: "Violeta Peeva",
