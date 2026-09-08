@@ -170,7 +170,7 @@ const people = [
     photo: "/team/alexander-angelov.jpg",
   },
 ];
-function Mark(){return <div className="mark"><svg viewBox="0 0 48 48"><path d="M8 38C9 20 17 9 36 7c0 19-9 30-28 31Z"/><path d="M10 35c8-8 15-14 25-23M24 23l6 2M19 28l-1-7"/></svg><span><b>PSAM</b><small>GROUP</small></span></div>}
+function Mark(){return <div className="mark"><span className="brand-symbol"><img src="/psam-logo.png" alt="" width="1254" height="1254"/></span><span className="brand-copy"><b>PSAM-Group</b><small>Plant Stress Analysis<br/> &amp; Modeling</small></span></div>}
 
 export default function Home({ initialLang = "en" }: { initialLang?: "en" | "bg" }){
   const [lang]=useState<"en"|"bg">(initialLang); const t=copy[lang];
